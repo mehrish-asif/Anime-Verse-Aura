@@ -1,0 +1,114 @@
+{
+  "anime": [
+    {
+      "id": 1,
+      "title": "Attack on Titan",
+      "genre": ["Action", "Drama", "Fantasy"],
+      "episodes": 87,
+      "rating": 9.1,
+      "isTrending": true,
+      "release": "2013-2023",
+      "img": "/Image/AOT.jpg",
+      "description": "Humans fight for survival against man-eating giants called Titans."
+    },
+    {
+      "id": 2,
+      "title": "Demon Slayer",
+      "genre": ["Action", "Adventure", "Dark Fantasy"],
+      "episodes": 55,
+      "rating": 8.8,
+      "isTrending": true,
+      "release": "2019-",
+        "img": "/Image/demon slayer.jpg",
+      "description": "Tanjiro Kamado becomes a demon slayer to save his sister and defeat Muzan Kibutsuji."
+    },
+    {
+      "id": 3,
+      "title": "Jujutsu Kaisen",
+      "genre": ["Action", "Supernatural", "Dark Fantasy"],
+      "episodes": 48,
+      "rating": 8.7,
+      "isTrending": false,
+      "release": "2020-",
+        "img": "/Image/Jujutsa.jpg",
+      "description": "Yuji Itadori eats a cursed finger and joins Jujutsu High to fight curses."
+    },
+    {
+      "id": 4,
+      "title": "One Piece",
+      "genre": ["Action", "Adventure", "Comedy"],
+      "episodes": 1100,
+      "rating": 9.0,
+      "isTrending": true,
+      "release": "1999-",
+        "img": "/Image/One piece.jpg",
+      "description": "Monkey D. Luffy and his pirate crew search for the legendary treasure One Piece."
+    },
+    {
+      "id": 5,
+      "title": "Death Note",
+      "genre": ["Thriller", "Mystery", "Psychological"],
+      "episodes": 37,
+      "rating": 9.0,
+      "isTrending": false,
+      "release": "2006-2007",
+        "img": "/Image/Death note.jpg",
+      "description": "Light Yagami finds a notebook that can kill anyone whose name is written in it."
+    },
+    {
+      "id": 6,
+      "title": "Solo Leveling (Season 2)",
+      "genre": ["Action", "Fantasy", "Adventure"],
+      "episodes": 12,
+      "rating": 8.9,
+      "isTrending": true,
+      "release": "2025",
+        "img": "/Image/Solo Levelling.jpg",
+      "description": "In a world where hunters fight monsters in dungeons, Sung Jin-Woo, the weakest hunter, gains the unique ability to level up infinitely. As he grows stronger, he faces tougher enemies and uncovers secrets about the dungeons and his own power."
+    },
+    {
+      "id": 7,
+      "title": "Kusuriya no Hitorigoto (The Apothecary’s Monologue) Season 2",
+      "genre": ["Mystery", "Drama", "Historical"],
+      "episodes": null,
+      "rating": 8.7,
+      "isTrending": false,
+      "release": "2025",
+        "img": "/Image/Kusuriya.jpg",
+      "description": "A court apothecary unravels mysteries while navigating palace intrigues."
+    },
+    {
+      "id": 8,
+      "title": "Takopi’s Original Sin",
+      "genre": ["Drama", "Psychological"],
+      "episodes": 6,
+      "rating": 9.1,
+      "isTrending": true,
+      "release": "2025",
+        "img": "/Image/Takopies.jpg",
+      "description": "A dark story exploring trauma and morality through a strange alien creature."
+    },
+    {
+      "id": 9,
+      "title": "Frieren: Beyond Journey’s End",
+      "genre": ["Fantasy", "Adventure", "Drama"],
+      "episodes": 28,
+      "rating": 9.0,
+      "isTrending": true,
+      "release": "2025",
+        "img": "/Image/Frieren.jpg",
+      "description": "An elf mage reflects on her journey and seeks to understand humanity after her companions’ deaths."
+    },
+    {
+      "id": 10,
+      "title": "The Apothecary Diaries",
+      "genre": ["Historical", "Mystery", "Drama"],
+      "episodes": null,
+      "rating": 8.6,
+      "isTrending": false,
+      "release": "2025",
+        "img": "/Image/Apothecary.jpg",
+      "description": "A clever young girl solves court mysteries through her apothecary skills."
+    }
+  ]
+}
