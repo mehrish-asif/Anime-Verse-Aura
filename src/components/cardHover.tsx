@@ -13,7 +13,7 @@ export function CardHoverEffectDemo() {
           Discover anime for every trending genre, and don’t miss the hottest trending series.
         </p>
       </div>
-          <div className="max-w-5xl mx-auto px-4">
+          <div className="max-w-5xl mx-auto px-4 ">
         <HoverEffect items={projects} />
       </div>
     </>

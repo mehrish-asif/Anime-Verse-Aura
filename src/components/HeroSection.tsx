@@ -16,7 +16,7 @@ function HeroSection() {
 
             </div>
             <div className='mt-4 flex justify-center items-center ' >
-                <Link href={"/courses"} >
+                <Link href={"/explore-animes"} >
                     <HoverBorderGradient
                         duration={1.5}
                         as="button"
