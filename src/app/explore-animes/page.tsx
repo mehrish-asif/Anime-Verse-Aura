@@ -45,11 +45,11 @@ export default function AnimeChatInterface() {
                 setMessage(''); // Clear message if data is successfully received
             } else {
                 // Error: Store the error message
-                setMessage(`❌ Error: ${data.error || "Could not get explanation. Check API keys and server logs."}`);
+                setMessage(`Error: ${data.error || "Could not get explanation. Check API keys and server logs."}`);
                 setResponse(null);
             }
         } catch (e) {
-            setMessage("🔴 Network error occurred. Check your connection.");
+            setMessage(" Network error occurred. Check your connection.");
             setResponse(null);
         } finally {
             setLoading(false);
