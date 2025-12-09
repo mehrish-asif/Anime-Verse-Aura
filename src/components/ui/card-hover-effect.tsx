@@ -65,7 +65,7 @@ export const HoverEffect = ({
     </div>
        <div className="flex justify-center mb-6">
         <div className='flex flex-col items-center'>
-          <p className='my-4 text-lg text-purple-300 '>Click to see trendings animes according to genres</p>
+          {/* <p className='my-4 text-lg text-purple-300 '>Click to see trendings animes according to genres</p>
           <Link href={"/genres"} >
             <HoverBorderGradient
               duration={1.5}
@@ -75,7 +75,7 @@ export const HoverEffect = ({
             >
               Explore Genres
             </HoverBorderGradient>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>
