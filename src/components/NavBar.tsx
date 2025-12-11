@@ -38,7 +38,7 @@ function NavBar({ className }: { className?: string }) {
                 </div>
                 <div className="flex flex-row space-v-4 text-sm">
                     <Link href={"/contact"} >
-                    <MenuItem setActive={setActive} active={active} item="Contact Us" ></MenuItem>
+                    <MenuItem setActive={setActive} active={active} item="About Us" ></MenuItem>
                     </Link>
                 </div>
 

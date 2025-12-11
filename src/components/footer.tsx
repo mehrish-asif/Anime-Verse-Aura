@@ -22,7 +22,7 @@ export default function Footer() {
                         <Link href={"https://www.linkedin.com/in/mehrish-asif-299658384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} >
                             <img src="/Image/LI-Logo.png" alt="" className='w-20 inline '/>
                         </Link>
-                        <Link href={"https://www.instagram.com/meh_ri625?igsh=dXM4dTdkMWZpZmlk"} >
+                        <Link href={"#"} >
                             <img src="/Image/1715965947instagram-logo-png (1).png" alt="" className='w-7 inline '/> Instagram
                         </Link>
                     </div>
