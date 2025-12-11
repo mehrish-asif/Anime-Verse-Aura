@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Spotlight } from '@/components/ui/spotlight-new';
 import ColourfulText from '@/components/ui/colourful-text';
 import { HoverBorderGradient } from '@/components/ui/hover-border-gradient';
+import { ExpandableCardDemo } from '@/components/expandable-card';
 
 // Interfaces for the expected response from our own API route
 interface FinalResponse {
@@ -157,6 +158,7 @@ export default function AnimeChatInterface() {
             </div>
 
         </div>
+        <ExpandableCardDemo/>
         </>
     );
 }
