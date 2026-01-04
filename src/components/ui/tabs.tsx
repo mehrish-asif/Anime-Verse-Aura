@@ -114,7 +114,7 @@ export const FadeInDiv = ({
           animate={{
             y: isActive(tab) ? [0, 40, 0] : 0,
           }}
-          className={cn("flex justify-center items-center w-[90vw] md:w-full mx-4 md:mx-0 absolute top-0 left-0 ", className)}
+          className={cn("flex justify-center items-center w-[90vw] md:w-full mx-4 md:mx-0 absolute top-0 left-0 text-zinc-400", className)}
         >
           {tab.content}
         </motion.div>
