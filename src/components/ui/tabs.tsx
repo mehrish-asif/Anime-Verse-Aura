@@ -40,7 +40,7 @@ export const Tabs = ({
     <>
       <div
         className={cn(
-          "flex flex-row items-center justify-center [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
+          "flex flex-row items-center justify-center text-xs md:text-xl mx-6 w-[340px] md:w-full ",
           containerClassName
         )}
       >
@@ -68,7 +68,7 @@ export const Tabs = ({
               />
             )}
 
-            <span className="relative block text-black dark:text-white">
+            <span className="relative block text-black dark:text-zinc-200">
               {tab.title}
             </span>
           </button>
@@ -100,7 +100,7 @@ export const FadeInDiv = ({
     return tab.value === tabs[0].value;
   };
   return (
-    <div className="relative w-full h-full">
+    <div className="flex items-center justify-center w-[90vw] md:w-full h-full text-zinc-400">
       {tabs.map((tab, idx) => (
         <motion.div
           key={tab.value}
@@ -114,7 +114,7 @@ export const FadeInDiv = ({
           animate={{
             y: isActive(tab) ? [0, 40, 0] : 0,
           }}
-          className={cn("w-full absolute top-0 left-0", className)}
+          className={cn("flex justify-center items-center w-[90vw] md:w-full mx-4 md:mx-0 absolute top-0 left-0 ", className)}
         >
           {tab.content}
         </motion.div>

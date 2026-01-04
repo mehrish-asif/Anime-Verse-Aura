@@ -21,12 +21,12 @@ function featuredAnimes() {
         <div className='py-12 ' style={{ backgroundColor: "#100117" }}>
             <div>
                 <div className="text-center">
-                    <h2 className='text-base text-purple-400 font-semibold tracking-wide uppercase'>Trending Anime Picks</h2>
-                    <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-400 sm:text-4xl'>Discover the best stories and visuals ruling the anime world</p>
+                    <h2 className='text-sm md:text-xl text-purple-400 font-semibold tracking-wide uppercase'>Trending Anime Picks</h2>
+                    <p className='mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-400 md:text-4xl'>Discover the best stories and visuals ruling the anime world</p>
                 </div>
             </div>
             <div className='mt-10'>
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center mx-4 md:mx-4'>
                     {TrendingAnimes.map((anime: Anime) => (
                         <div key={anime.id} className="flex justify-center">
                             <BackgroundGradient className='flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm'>
@@ -34,9 +34,7 @@ function featuredAnimes() {
                                     <img
                                         src={anime.img}
                                         alt="img"
-                                        style={{height: 250}}
-                                        // width="400"
-                                        className="object-contain rounded-lg"
+                                        className="object-contain rounded-lg h-[200px] md:h[250px]"
                                     />
                                     <p className='text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200'>{anime.title}</p>
                                     <p className='text-sm text-neutral-600 dark:text-neutral-400 flex-grow'>Genre: {anime.genre}</p>

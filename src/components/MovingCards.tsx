@@ -7,35 +7,35 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 export default function InfiniteMovingCardsDemo() {
   return (
     <>
-     <div className="relative flex h-[30rem] w-full items-center justify-center bg-purple-950 dark:bg-[#1f022b]">
-      <div
-        className={cn(
-          "absolute inset-0",
-          "[background-size:20px_20px]",
-          "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
-          "dark:[background-image:radial-gradient(#404040_1px,transparent_1px)]",
-        )}
-      />
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
-      <div className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-4xl font-bold text-transparent sm:text-7xl">
-     <h1 className="text-2xl md:text-7xl text-center mt-20 font-bold dark:text-white">
-        Anime News <br /> Corner
-      </h1>
-      <div className="flex justify-center ">
-       <p className=" text-base md:text-xl text-center w-[32rem] my-6 dark:text-neutral-200">
-        Fans worldwide gear up for thrilling anime news, with studios revealing future projects, special collaborations, and surprise premieres, ensuring audiences stay engaged and entertained with endless waves of creative storytelling
-      </p>
+      <div className="relative flex h-[30rem] w-full items-center justify-center bg-purple-950 dark:bg-[#1f022b] mt-60">
+        <div
+          className={cn(
+            "absolute inset-0",
+            "[background-size:20px_20px]",
+            "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
+            "dark:[background-image:radial-gradient(#404040_1px,transparent_1px)]",
+          )}
+        />
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
+        <div className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-4xl text-transparent sm:text-7xl">
+          <h1 className="text-4xl md:text-7xl text-center mt-20 font-bold dark:text-white">
+            Anime News <br /> Corner
+          </h1>
+          <div className="flex justify-center w-[90vw] text-zinc-300">
+            <p className=" text-base md:text-xl text-center  w-[32rem] my-6 ">
+              Fans worldwide gear up for thrilling anime news, with studios revealing future projects, special collaborations, and surprise premieres, ensuring audiences stay engaged and entertained with endless waves of creative storytelling
+            </p>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-    <div className="h-[20rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden mt-0 pt-0
+      <div className="h-[20rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden mt-0 pt-0
 ">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-    </div>
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="slow"
+        />
+      </div>
     </>
   );
 }
